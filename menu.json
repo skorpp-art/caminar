@@ -1,0 +1,105 @@
+
+{
+  "restaurante": {
+    "nombre": "Sabor Criollo",
+    "logo": "https://picsum.photos/100/100"
+  },
+  "categorias": [
+    { "id": "entrantes", "nombre": "Entrantes" },
+    { "id": "principales", "nombre": "Platos Principales" },
+    { "id": "postres", "nombre": "Postres" },
+    { "id": "bebidas", "nombre": "Bebidas" }
+  ],
+  "platos": [
+    {
+      "id": 1,
+      "nombre": "Ceviche Clásico",
+      "descripcion": "Pescado fresco marinado en jugo de limón, con cebolla roja, cilantro y un toque de ají limo.",
+      "precio": 12.50,
+      "imagen": "https://picsum.photos/400/300?random=1",
+      "categoria": "entrantes",
+      "alergenos": ["pescado"],
+      "disponible": true
+    },
+    {
+      "id": 2,
+      "nombre": "Causa Limeña",
+      "descripcion": "Suave puré de papa amarilla sazonado con ají, relleno de pollo desmenuzado y mayonesa.",
+      "precio": 8.00,
+      "imagen": "https://picsum.photos/400/300?random=2",
+      "categoria": "entrantes",
+      "alergenos": ["huevo"],
+      "disponible": true
+    },
+    {
+      "id": 3,
+      "nombre": "Lomo Saltado",
+      "descripcion": "Trozos de lomo de res salteados con cebolla, tomate y ají amarillo. Servido con papas fritas y arroz.",
+      "precio": 18.00,
+      "imagen": "https://picsum.photos/400/300?random=3",
+      "categoria": "principales",
+      "alergenos": ["soja"],
+      "disponible": true
+    },
+    {
+      "id": 4,
+      "nombre": "Ají de Gallina",
+      "descripcion": "Pechuga de gallina desmenuzada en una cremosa salsa de ají amarillo, pan y leche. Acompañado de arroz y huevo duro.",
+      "precio": 15.00,
+      "imagen": "https://picsum.photos/400/300?random=4",
+      "categoria": "principales",
+      "alergenos": ["lacteos", "gluten", "frutos secos"],
+      "disponible": true
+    },
+    {
+      "id": 5,
+      "nombre": "Arroz con Mariscos",
+      "descripcion": "Una generosa porción de arroz cocido en caldo de mariscos con camarones, calamares y conchas.",
+      "precio": 20.00,
+      "imagen": "https://picsum.photos/400/300?random=5",
+      "categoria": "principales",
+      "alergenos": ["mariscos"],
+      "disponible": false
+    },
+    {
+      "id": 6,
+      "nombre": "Suspiro a la Limeña",
+      "descripcion": "Dulce de manjar blanco cubierto con un merengue al oporto y espolvoreado con canela.",
+      "precio": 7.50,
+      "imagen": "https://picsum.photos/400/300?random=6",
+      "categoria": "postres",
+      "alergenos": ["lacteos", "huevo"],
+      "disponible": true
+    },
+    {
+      "id": 7,
+      "nombre": "Picarones",
+      "descripcion": "Aros fritos de masa de camote y zapallo, bañados en miel de chancaca.",
+      "precio": 6.00,
+      "imagen": "https://picsum.photos/400/300?random=7",
+      "categoria": "postres",
+      "alergenos": ["gluten"],
+      "disponible": true
+    },
+    {
+      "id": 8,
+      "nombre": "Chicha Morada",
+      "descripcion": "Bebida refrescante tradicional hecha a base de maíz morado, piña y especias.",
+      "precio": 3.50,
+      "imagen": "https://picsum.photos/400/300?random=8",
+      "categoria": "bebidas",
+      "alergenos": [],
+      "disponible": true
+    },
+    {
+      "id": 9,
+      "nombre": "Inca Kola",
+      "descripcion": "La gaseosa dorada del Perú, con su sabor único a hierba luisa.",
+      "precio": 3.00,
+      "imagen": "https://picsum.photos/400/300?random=9",
+      "categoria": "bebidas",
+      "alergenos": [],
+      "disponible": true
+    }
+  ]
+}

@@ -1,0 +1,5 @@
+{
+  "name": "Digital Restaurant Menu",
+  "description": "A modern, responsive, and dynamic digital restaurant menu application built with React and Tailwind CSS, inspired by BuenaCarta. It fetches menu data from a JSON file and allows users to browse through different categories of dishes.",
+  "requestFramePermissions": []
+}
